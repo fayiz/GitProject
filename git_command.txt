@@ -33,7 +33,9 @@ git rm --cached -r . //to remove all from staging
 git status
 git add.
 git commit -m "Initial Commit"
-git push //(use "git push" to publish your local commits)
+
+git remote add origin https://github.com/fayiz/GitProject.git
+git push -u origin master
 
 
 
