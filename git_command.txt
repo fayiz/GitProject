@@ -1,0 +1,45 @@
+mkdir Story
+cd Story
+touch chapter1.txt
+start chapter1.txt
+//insert some txt in chapter1.txt and save the file
+git init
+ls -a
+git status
+git add chapter1.txt
+git status
+git commit -m "Initial Commit"
+git log
+touch git_command.txt
+touch chapter2.txt
+git add .
+git status
+git commit -m "Added 2 more files"
+git log
+git push //to move into remote repository
+
+//
+mkdir GitProject
+cd GitProject
+touch file1.txt
+touch file2.txt
+touch file3.txt
+touch secret.txt
+touch .gitignore
+git init
+git add. //to add all files into satging
+git rm --cached -r . //to remove all from staging
+//open .gitignore file list all files whihc you don't want to commit
+git status
+git add.
+git commit -m "Initial Commit"
+git push //(use "git push" to publish your local commits)
+
+
+
+//branching
+git branch branch-test
+
+
+//for clonning copy the project link from GitHub and run below
+git clone https://github.com/austinzheng/swift-2048.git
