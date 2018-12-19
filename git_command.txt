@@ -31,6 +31,11 @@ git checkout master
 touch file4.txt
 git add .
 git commit -m "added file 4"
+//run the below command and check the folder to see the changes
+git checkout branch-test
+ls
+git checkout master
+ls
 
 
 //for clonning copy the project link from GitHub and run below
