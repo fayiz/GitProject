@@ -36,6 +36,7 @@ git checkout branch-test
 ls
 git checkout master
 ls
+git merge branch-test //to merge the two brancches
 
 
 //for clonning copy the project link from GitHub and run below
