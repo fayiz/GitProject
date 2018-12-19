@@ -29,6 +29,8 @@ git log
 git branch
 git checkout master
 touch file4.txt
+git add .
+git commit -m "added file 4"
 
 
 //for clonning copy the project link from GitHub and run below
