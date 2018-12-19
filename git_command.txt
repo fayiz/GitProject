@@ -1,31 +1,11 @@
-mkdir Story
-cd Story
-touch chapter1.txt
-start chapter1.txt
-//insert some txt in chapter1.txt and save the file
-git init
-ls -a
-git status
-git add chapter1.txt
-git status
-git commit -m "Initial Commit"
-git log
-touch git_command.txt
-touch chapter2.txt
-git add .
-git status
-git commit -m "Added 2 more files"
-git log
-git push //to move into remote repository
-
-//
+//Commands to create local repository, staging and remote repository on Github
 mkdir GitProject
 cd GitProject
 touch file1.txt
 touch file2.txt
 touch file3.txt
 touch secret.txt
-touch .gitignore
+touch .gitignore  //open .gitignore file and type secret.txt to ignore this file while commiting
 git init
 git add. //to add all files into satging
 git rm --cached -r . //to remove all from staging
@@ -34,13 +14,21 @@ git status
 git add.
 git commit -m "Initial Commit"
 
+//Go to Github and create a repository for your project and copy the link
 git remote add origin https://github.com/fayiz/GitProject.git
 git push -u origin master
 
 
-
 //branching
-git branch branch-test
+git branch branch-test //to create the branch
+git branch //to list the available branch
+git checkout branch-test // to switcch the branch from master to branch-test
+git add .
+git commit -m "Modified some files to test branching"
+git log
+git branch
+git checkout master
+touch file4.txt
 
 
 //for clonning copy the project link from GitHub and run below
