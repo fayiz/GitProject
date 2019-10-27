@@ -7,11 +7,11 @@ touch file3.txt
 touch secret.txt
 touch .gitignore  //open .gitignore file and type secret.txt to ignore this file while commiting
 git init
-git add. //to add all files into satging
+git add . //to add all files into satging
 git rm --cached -r . //to remove all from staging
 //open .gitignore file list all files whihc you don't want to commit
 git status
-git add.
+git add .
 git commit -m "Initial Commit"
 
 //Go to Github and create a repository for your project and copy the link
